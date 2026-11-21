@@ -64,21 +64,24 @@ public class Grappling : MonoBehaviour
 
     }
 
-    // Just pick up here tomorrow. Started building the grapple. Not sure what all of this is tbh. 
-    // Still confused why the grapple does NOT disappear
-    //  Watch video starting at 6:30
+ 
+
     private void ExecuteGrapple()
     {
        
-
+        //
         Vector3 lowestPoint = new Vector3(transform.position.x, transform.position.y - 1f, transform.position.z);
 
+        //
         float grapplePointRelativeYPos = grapplePoint.y - lowestPoint.y;
         float highestPointOnArc = grapplePointRelativeYPos + overshootYAxis;
 
+        //
         if (grapplePointRelativeYPos < 0) highestPointOnArc = overshootYAxis;
 
+        //
         pm.JumpToPosition(grapplePoint, highestPointOnArc);
+
 
         Invoke(nameof(StopGrappling), 1f);
     }
