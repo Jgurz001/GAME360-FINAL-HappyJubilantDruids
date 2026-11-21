@@ -1,6 +1,9 @@
 Game Title: Grappling Game
+
 Description: 3D platformer where the player utilizes a grappling gun to climb a dangerous tower and defeat the king of the hill.
-Team Members: Dylan,. Hazel, Jeremy
+
+Team Members: Dylan, Hazel, Jeremy
+
 Roles: 
 - Jeremy: Lead Gameplay Programmer
 - Lucas: Lead Animator and Level Design
