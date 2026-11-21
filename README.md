@@ -1,39 +1,10 @@
-# Coin Collector
+Game Title: Grappling Game
+Description: 3D platformer where the player utilizes a grappling gun to climb a dangerous tower and defeat the king of the hill.
+Team Members: Dylan,. Hazel, Jeremy
+Roles: 
+- Jeremy: Lead Gameplay Programmer
+- Lucas: Lead Animator and Level Design
+- Dylan: Concept Artist and UI Design
 
-GAME 360 - Jeremy Gurzynski
-
- 
-
-## How to play
-
-WASD / Up, Down, Left, Right keys for movement
-Mouse movement for camera controls
-Left Click for Attack
-
- 
-
-## Singleton
-
-Class: ScoreManager.cs
-
-What it holds: Holds player's score 
-
-Why it's a singleton: ScoreManager is a singleton because every script accesses the same exact score, while duplicate ScoreManger scripts are prevented when scene reloads.
-
- 
-
-## Observer
-
-Event: OnScoreChanged in ScoreManager.cs>
-
-Listener 1: ScoreUI.cs - Updates the score text whenever the score changes.
-
-Listener 2: GameUI.cs - Checks if the player has reached the score required to win.
-
- 
-
-## Help I used
-
-https://www.youtube.com/watch?v=QPJHY6MPag4     -   For Dialogue Editor
-https://youtu.be/9U--F5rSGGs?si=XIk-2Vwu3xTExkCa   -  For Animations
-https://youtu.be/o7O28SFGWS4?si=REyiMKmKgGdU_2NJ     -   For Cinemachine & movement
+Current Status:
+ Foundation of the game has begun, we are currently organizing base project and preparing to integrate the required scripts, materials, UI, designs, animations, mechanics, etc.
